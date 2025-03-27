@@ -1,0 +1,45 @@
+header {
+  max-width: 23.43rem;
+  width: 100%;
+  margin-inline: auto;
+
+  padding: 1.25rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > img {
+    width: 100%;
+    top: 0;
+ }
+
+/* 
+  & span {
+    background: url ('assets/logo-symbol.svg') no-repeat center center / contain;
+    width: 2.5rem;
+  } */
+
+  & img {
+    width: 100%;
+  }
+
+  & a:nth-child(2) {
+    display: flex;
+    align-items: center;
+    background: var(--pink-dark);
+    border-radius: .5rem;
+    
+    color: var(--text-title);
+    font: var(--font-button) var(--ff-raleway);
+    padding: .75rem 1.25rem;
+
+    height: 2.5rem;
+  }
+}
+
+@media (width >= 90em) {
+  header {
+    max-width: 90em;
+  }
+}

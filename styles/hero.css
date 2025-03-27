@@ -1,0 +1,35 @@
+section.hero {
+  max-width: 23.43rem;
+  width: 100%;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+  margin-top: 7.25rem;
+
+  & h1 {
+    color: var(--text-title);
+    font: var(--title-lg) var(--ff-raleway);
+  }
+
+  & p {
+    color: var(--text-body);
+  }
+
+  /* & > img {
+    width: 100%;
+    top: 0;
+  } */
+}
+
+@media (width >= 90em) {
+  section.hero {
+    max-width: 90rem;
+    gap: 2rem;
+    margin-top: 17.56rem;
+  }
+}
