@@ -14,9 +14,8 @@ header {
     top: 0;
  }
 
-/* 
-  & span {
-    background: url ('assets/logo-symbol.svg') no-repeat center center / contain;
+  /* & span {
+    background: url('../assets/logo.svg') no-repeat center;
     width: 2.5rem;
   } */
 

@@ -42,11 +42,11 @@
 
   --font-button: 700 .875rem;
   --font-link: 500 .875rem;
-  --font-tag: 700 .625rem; /* uppercase e 5% de letterspacing */
+  --font-tag: 700 .625rem; 
 }
 
 html {
-  background: var(--pink-low);
+  background: #110819;
 }
 
 a {
