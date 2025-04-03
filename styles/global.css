@@ -61,6 +61,13 @@ a {
   justify-content: center;
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--shape-stroke);
+  margin-block: .75rem;
+}
+
 @media (width >= 90em) {
   :root {
     --title-lg: 700 3rem;

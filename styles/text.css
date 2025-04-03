@@ -1,5 +1,7 @@
 .text {
   max-width: 23.43rem;
+  width: 100%;
+  margin-inline: auto;
 
   display: flex;
   flex-direction: column;
